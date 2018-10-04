@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=fusee-nano
-PKG_VERSION:=0.4
+PKG_VERSION:=0.4_gl
 PKG_RELEASE:=2
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/DavidBuchanan314/fusee-nano/archive/
+PKG_SOURCE_URL:=https://github.com/shawly/fusee-nano/archive/
 PKG_CAT:=zcat
 
 include $(INCLUDE_DIR)/package.mk
